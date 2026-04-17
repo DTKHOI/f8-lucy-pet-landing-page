@@ -13,6 +13,7 @@ html {
 
 body {
     background: var(--primary-color);
+    height: 10000px;
 }
 
 input,
@@ -309,4 +310,55 @@ button {
     font-style: normal;
     font-weight: 500;
     text-decoration: underline;
+}
+
+/* ------------------------- About ----------------------- */
+.about {
+    margin-top: 207px;
+}
+
+.about__label {
+    color: #5e6085;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.about__heading {
+    margin-top: 15px;
+    max-width: 446px;
+}
+
+.about__desc {
+    margin-top: 24px;
+    max-width: 431px;
+}
+
+.about__list {
+    margin-top: 54px;
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(2, auto);
+    gap: 34px 36px;
+}
+
+.about__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about__list-title {
+    color: #48496a;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.about__icon-wrap {
+    width: 24px;
+    height: 24px;
+    background: #ff5d31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
 }
