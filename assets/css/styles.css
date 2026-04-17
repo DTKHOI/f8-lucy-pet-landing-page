@@ -23,6 +23,7 @@ button {
     --heading-font: "Sora";
     --primary-color: #fffaf5;
     --secondary-color: #fff6ed;
+    --tertiary-color: #ff5b2e;
     --heading-color: #000958;
     --content-color: #656689;
     --sub-title-color: #48496a;
@@ -36,14 +37,19 @@ button {
 }
 
 .btn {
-    padding: 8px 16px;
+    display: inline-block;
+    padding: 19px 20px;
     width: 214px;
     max-width: 214px;
-    display: inline-block;
+    max-height: 56px;
     border-radius: 31px;
-    border: 1px solid #ff5b2e;
+    border: 1px solid var(--tertiary-color);
     opacity: 0.6;
-    box-shadow: 0 13px 26px -8px rgba(255, 91, 46, 0.42);
+    color: var(--tertiary-color);
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1;
 }
 
 .heading {
@@ -52,4 +58,25 @@ button {
     font-weight: 700;
     line-height: 1.19;
     font-size: 5.2rem;
+}
+
+.label {
+    color: #5e6085;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.section-desc {
+    color: var(--content-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.875;
+}
+
+.content-desc {
+    color: #656689;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.71;
 }
