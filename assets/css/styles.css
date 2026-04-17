@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", "Sans-serif";
+}
+
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+:root {
+    --heading-font: "Sora";
+    --primary-color: #fffaf5;
+    --secondary-color: #fff6ed;
+    --heading-color: #000958;
+    --content-color: #656689;
+    --sub-title-color: #48496a;
+}
+
+/* Common */
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 8px 16px;
+    width: 214px;
+    max-width: 214px;
+    display: inline-block;
+    border-radius: 31px;
+    border: 1px solid #ff5b2e;
+    opacity: 0.6;
+    box-shadow: 0 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
+
+.heading {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+    line-height: 1.19;
+    font-size: 5.2rem;
+}
