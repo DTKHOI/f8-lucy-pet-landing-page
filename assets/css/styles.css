@@ -627,6 +627,7 @@ button {
     border: 2px solid rgba(255, 188, 122, 0.26);
     background: #fff;
     padding: 30px 22px 30px 28px;
+    cursor: pointer;
 }
 
 .service__card-title {
