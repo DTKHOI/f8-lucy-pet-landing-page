@@ -313,6 +313,7 @@ button {
 }
 
 /* ------------------------- About ----------------------- */
+/* About content */
 .about {
     margin-top: 207px;
 }
@@ -361,4 +362,40 @@ button {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+}
+
+/* About media */
+.about__card {
+    max-width: 136px;
+    border-radius: 10px;
+    background: #5bd6e2;
+    box-shadow: -15px 26px 48px 0 rgba(85, 240, 255, 0.17);
+    padding: 30px 26px;
+    position: relative;
+}
+
+.about__yoe {
+    color: #fff;
+    text-align: center;
+    font-family: Sora;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.about__card-desc {
+    display: inline-block;
+    max-width: 83px;
+    color: #c6f4f9;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.42;
+    margin-top: 14px;
+}
+
+.about__card-decor {
+    position: absolute;
+    top: -38px;
+    right: -30px;
 }
