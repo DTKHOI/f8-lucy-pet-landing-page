@@ -318,6 +318,11 @@ button {
     margin-top: 207px;
 }
 
+.about__container {
+    display: flex;
+    align-items: center;
+}
+
 .about__label {
     color: #5e6085;
     font-family: Sora;
@@ -371,7 +376,7 @@ button {
     background: #5bd6e2;
     box-shadow: -15px 26px 48px 0 rgba(85, 240, 255, 0.17);
     padding: 30px 26px;
-    position: relative;
+    position: absolute;
 }
 
 .about__yoe {
@@ -398,4 +403,11 @@ button {
     position: absolute;
     top: -38px;
     right: -30px;
+}
+
+.about__img-wrap {
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+    box-shadow: 11px 18px 65px 0 rgba(255, 155, 121, 0.12);
 }
