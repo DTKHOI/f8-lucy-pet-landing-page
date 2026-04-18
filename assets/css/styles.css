@@ -592,3 +592,119 @@ button {
     position: absolute;
     bottom: -10px;
 }
+
+/* ------------------------- Service ---------------------- */
+/* Service card */
+.service {
+    background: var(--secondary-color);
+    padding: 68px 0 100px;
+    margin-top: 130px;
+}
+
+.service__label {
+    color: #5e6085;
+    text-align: center;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.service__heading {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.service__body {
+    margin-top: 71px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.service__card {
+    width: 294px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    background: #fff;
+    padding: 30px 22px 30px 28px;
+}
+
+.service__card-title {
+    color: #000958;
+    font-family: Sora;
+    font-size: 2.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.service__card-title::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 22px;
+    background: linear-gradient(90deg, #ff5b2e 0.39%, #ffa187 100.29%);
+}
+
+.service__desc {
+    margin-top: 18px;
+}
+
+.service__more {
+    display: block;
+    margin-top: 24px;
+    color: #34396a;
+    font-family: Sora;
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.service__more::after {
+    content: url(../icon/ArrowUpRight.svg);
+}
+
+.service__card + .service__card {
+    margin-top: 24px;
+}
+
+/* Service media */
+.service__media {
+    margin-top: 17px;
+}
+
+.service__img-wrap {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    justify-content: center;
+    z-index: 0;
+}
+
+.service__img-wrap::after {
+    content: "";
+    display: block;
+    width: 410px;
+    height: 350px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #9df1fb 0%, #73d0db 108.14%);
+    position: absolute;
+    z-index: -1;
+}
+
+.service__img {
+    width: 447px;
+}
+
+.service__btn-wrap {
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.service__btn {
+    max-width: 214px;
+}
