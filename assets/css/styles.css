@@ -448,6 +448,10 @@ button {
 .about-feature {
     margin-top: 140px;
 }
+
+.about-feature__container {
+    display: flex;
+}
 /* Feature Media */
 .about-feature__img-wrap {
     width: 458px;
