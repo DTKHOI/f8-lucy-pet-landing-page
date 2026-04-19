@@ -816,3 +816,107 @@ nhiều màn hình */
 .staff__btn {
     max-width: 193px;
 }
+
+/* ------------------------- Pricing --------------------- */
+.pricing {
+    background: var(--secondary-color);
+    padding: 86px 0;
+}
+
+.pricing__heading {
+    text-align: center;
+}
+
+.pricing__desc {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 24px;
+    max-width: 709px;
+}
+
+.pricing__sub-pack {
+    margin-top: 38px;
+}
+
+.pricing__list {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.pricing__card {
+    max-width: 302px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 30px 28px 43px;
+    cursor: pointer;
+    transition:
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.pricing__card:hover {
+    box-shadow: 0 20px 44px 0 rgba(195, 108, 22, 0.06);
+    transform: translateY(-10px);
+}
+
+.pricing__sub-type {
+    display: block;
+    color: var(--tertiary-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.pricing__service {
+    color: #3f4065;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: block;
+    margin-top: 8px;
+}
+
+.pricing__price {
+    display: block;
+    margin-top: 24px;
+    color: #000958;
+    font-family: Sora;
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+
+.pricing__btn {
+    margin-top: 22px;
+    width: 246px;
+    max-width: 246px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:
+        color 0.3s,
+        background 0.5s;
+}
+
+.pricing__card:hover .pricing__btn,
+.pricing__btn:hover {
+    background: var(--tertiary-color);
+    color: white;
+}
+
+.pricing__card-list {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.pricing__card-benefit {
+    line-height: 1;
+}
+
+.pricing__card-benefit::before {
+    content: url(../icon/check.svg);
+    margin-right: 12px;
+}
