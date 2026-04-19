@@ -920,3 +920,128 @@ nhiều màn hình */
     content: url(../icon/check.svg);
     margin-right: 12px;
 }
+
+/* ---------------------------- Testimonial ----------------------- */
+.testimonial {
+    margin-top: 53px;
+}
+
+.testimonial__body {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimonial__icon {
+    transition: filter 0.2s;
+}
+
+.testimonial__icon--next {
+    rotate: 180deg;
+}
+
+.testimonial__control:hover .testimonial__icon {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(99%) saturate(0%)
+        hue-rotate(346deg) brightness(104%) contrast(100%);
+}
+
+.testimonial__control {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: 1.5px solid #ffd1c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:
+        background 0.4s,
+        box-shadow 0.4s;
+    cursor: pointer;
+}
+
+.testimonial__control:hover {
+    background: #ff5b2e;
+    box-shadow: 0 5px 27px 0 rgba(255, 91, 46, 0.3);
+}
+
+.testimonial__media {
+    margin-top: 32px;
+}
+
+.testimonial__img-wrap {
+    margin: 21px 48px 69px 16px;
+    width: 274px;
+    z-index: 0;
+    position: relative;
+}
+
+.testimonial__img-wrap::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 350px;
+    border-radius: 137px;
+    background: #ffda54;
+    position: absolute;
+    bottom: 2px;
+    z-index: -1;
+}
+
+.testimonial__img {
+    width: 100%;
+    border-radius: 137px;
+}
+
+.testimonial__comment {
+    margin-top: 24px;
+    width: 553px;
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.55;
+}
+
+.testimonial__name {
+    display: block;
+    margin-top: 34px;
+    color: #282828;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.testimonial__name::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: black;
+}
+
+.testimonial__tab-nav {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.testimonial__circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    border: 1px solid var(--tertiary-color);
+    transition: all 0.3s;
+}
+
+.testimonial__circle:hover {
+    background: var(--tertiary-color);
+}
+
+.testimonial__circle--active {
+    width: 24px;
+    background: var(--tertiary-color);
+}
