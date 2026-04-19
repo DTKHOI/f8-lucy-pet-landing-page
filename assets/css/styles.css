@@ -1045,3 +1045,83 @@ nhiều màn hình */
     width: 24px;
     background: var(--tertiary-color);
 }
+
+/* ---------------------------- Blog ------------------------ */
+.blog {
+    margin-top: 130px;
+}
+
+.blog__top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__desc {
+    max-width: 350px;
+    font-size: 1.6rem;
+    line-height: 1.875;
+}
+
+.blog__btn {
+    margin-top: 24px;
+}
+
+.blog__list {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__thumb {
+    overflow: hidden;
+    padding: 24px 0 0 36px;
+    position: relative;
+    display: block;
+    width: 358px;
+    height: 362px;
+    border-radius: 24px;
+}
+
+.blog__item:nth-child(1) .blog__thumb {
+    background: #90ccff;
+}
+
+.blog__item:nth-child(2) .blog__thumb {
+    background: #ff997e;
+}
+
+.blog__item:nth-child(3) .blog__thumb {
+    background: #5bd6e2;
+}
+
+.blog__date {
+    color: white;
+    font-family: Sora;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.21;
+}
+
+.blog__img {
+    object-fit: cover;
+    width: 322px;
+    height: 296px;
+    margin-top: 25px;
+}
+
+.blog__title {
+    margin-top: 28px;
+    width: 338px;
+    color: #000958;
+    font-family: Sora;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.555;
+}
+
+.blog__card-desc {
+    margin-top: 16px;
+    width: 351px;
+}
