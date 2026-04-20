@@ -544,15 +544,25 @@
                     </p>
                 </div>
 
-                <form class="pricing__sub-pack" action="#!">
-                    <input
-                        type="checkbox"
-                        id="click"
-                        class="pricing__subscription"
-                    />
-                    <label for="click">Monthly</label>
-                    <label for="click">Yearly</label>
-                </form>
+                <div class="pricing__switch-wrap">
+                    <div class="pricing__switch">
+                        <input
+                            class="pricing__switch-input"
+                            name=""
+                            type="checkbox"
+                            id="pricing-switch"
+                            checked
+                            hidden
+                        />
+                        <label
+                            class="pricing-switch-click"
+                            for="pricing-switch"
+                        >
+                            <span class="pricing__switch-value">Monthly</span>
+                            <span class="pricing__switch-value">Yearly</span>
+                        </label>
+                    </div>
+                </div>
 
                 <ul class="pricing__list">
                     <li class="pricing__item">
