@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Disallow: /#!
+
+Sitemap: https://dtkhoi.github.io/f8-lucy-pet-landing-page/sitemap.xml
